@@ -32,8 +32,6 @@ namespace MassPackageBuyer
         public MainWindow()
         {
             InitializeComponent();
-
-
         }
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
@@ -120,6 +118,8 @@ namespace MassPackageBuyer
         private void btnChoose_Click(object sender, RoutedEventArgs e)
         {
             flyPackages.IsOpen = true;
+
+            lstPackages.Items.Clear();
             WebResponse response = WebRequest.Create(@"https://realmofthemadgod.appspot.com/package/getPackages").GetResponse();
 
             XmlDataDocument xmlDataDocument = new XmlDataDocument();
