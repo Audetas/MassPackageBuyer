@@ -1,0 +1,32 @@
+﻿<Controls:MetroWindow x:Class="MassPackageBuyer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    Title="Mass Package Buyer" 
+    Height="368" 
+    Width="553"
+    GlowBrush="{DynamicResource AccentColorBrush}">
+
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl>
+            <Controls:Flyout x:Name="flyPackages" Header="Packages" Position="Right" Width="400" Theme="Accent">
+                <ListBox x:Name="lstPackages" Margin="26,26,26,26" BorderThickness="1" SelectionChanged="lstPackages_SelectionChanged"/>
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+
+    <Grid>
+        <Button x:Name="btnBrowse" Content="Browse" HorizontalAlignment="Left" Margin="26,36,0,0" VerticalAlignment="Top" Width="101" Click="btnBrowse_Click" Background="#FFECEAEA"/>
+        <TextBox x:Name="tbxPath" Height="23" Margin="132,36,26,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top"/>
+        <Label Content="Accounts.js" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstLog" Margin="26,206,26,26" BorderThickness="1" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"/>
+        <Button x:Name="btnStart" Content="Start" Margin="109,146,110,0" VerticalAlignment="Top" Click="btnStart_Click" Background="#FFECEAEA"/>
+        <Label x:Name="lblStatus" Content="Accounts.js" HorizontalAlignment="Left" Margin="260,69,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <ProgressBar x:Name="barProgress" Margin="27,192,26,0" VerticalAlignment="Top" Height="9"/>
+        <Label Content="Package" Margin="26,69,450,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnChoose" Content="Choose" HorizontalAlignment="Left" Margin="26,95,0,0" VerticalAlignment="Top" Width="101" Background="#FFECEAEA" Click="btnChoose_Click"/>
+        <TextBox x:Name="tbxPackageID" Height="23" Margin="132,95,26,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top"/>
+    </Grid>
+</Controls:MetroWindow>
+    
+    

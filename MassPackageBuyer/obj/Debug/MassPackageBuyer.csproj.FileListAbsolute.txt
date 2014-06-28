@@ -1,0 +1,17 @@
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\MassPackageBuyer.exe.config
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.csprojResolveAssemblyReference.cache
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MainWindow.baml
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MainWindow.g.cs
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\App.g.cs
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer_MarkupCompile.cache
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.g.resources
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.Properties.Resources.resources
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.csproj.GenerateResource.Cache
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\MassPackageBuyer.exe
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\MassPackageBuyer.pdb
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\MahApps.Metro.dll
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\bin\Debug\MahApps.Metro.xml
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.exe
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\MassPackageBuyer.pdb
+C:\Users\Alec\Google Drive\Projects\MassPackageBuyer\MassPackageBuyer\obj\Debug\App.baml
