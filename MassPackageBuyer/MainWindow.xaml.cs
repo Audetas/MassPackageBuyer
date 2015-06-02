@@ -80,7 +80,7 @@ namespace MassPackageBuyer
                         try
                         {
                             string response = client.DownloadString(
-                                "https://realmofthemadgod.appspot.com/account/purchasePackage?packageId="
+                                "https://realmofthemadgodhrd.appspot.com/account/purchasePackage?packageId="
                                 + package + "&guid=" + s.Split(',')[0] + "&password=" + s.Split(',')[1]);
 
                             this.Dispatcher.Invoke(DispatcherPriority.Normal,
@@ -120,7 +120,7 @@ namespace MassPackageBuyer
             flyPackages.IsOpen = true;
 
             lstPackages.Items.Clear();
-            WebResponse response = WebRequest.Create(@"https://realmofthemadgod.appspot.com/package/getPackages").GetResponse();
+            WebResponse response = WebRequest.Create(@"https://realmofthemadgodhrd.appspot.com/package/getPackages").GetResponse();
 
             XmlDataDocument xmlDataDocument = new XmlDataDocument();
             xmlDataDocument.Load(response.GetResponseStream());
